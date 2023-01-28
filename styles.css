@@ -7,25 +7,28 @@ html {
   color:rgb(15, 16, 16);
   font-size: 30px;
   text-align: center;
-  background-color: aquamarine;
+  
 }
 
 header {
  text-align: center;
   border: 5px solid whitesmoke;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
   padding-bottom: 10px;
+  background-color: aquamarine;
 }
 
 .adjust-nav-ul {
   border: 5px solid whitesmoke;
-  margin-left: 4px;
+  background-color: aquamarine;
   }
 
   .adjust-nav-li {
   text-align: center;
   padding: 5px;
+  display: grid;
+
 }
 
 nav li {
@@ -35,19 +38,22 @@ nav li {
 
 main {
   display: flex;
+  margin-bottom: 18px;
 }
 
 .adjust-article {
-  margin-left: 5px;
+  margin-left: 0px;
   background-color: aquamarine;
   margin-right: 8px;
-  padding: 5px;
+  padding: 8px;
+  border: 5px solid whitesmoke;
 }
 
 aside {
   text-align: center;
   background-color: aquamarine;
   margin-right: 2px;
+  border: 5px solid whitesmoke;
 }
 
 .adjust-list-style {
@@ -62,9 +68,9 @@ aside li {
 
 footer {
   background-color: aquamarine;
-  margin-top: 8px;
-  margin-left: 5px;
-  margin-right: 2px;
+  border: 5px solid whitesmoke;
+  margin-left: 0px;
+  margin-right: opx;
 }
 
 p {
